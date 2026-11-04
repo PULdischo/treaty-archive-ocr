@@ -1,0 +1,51 @@
+label,kind,weight,case_sensitive,regex
+Panama Canal Treaties,agreement,3,n,panama canal treat
+SALT II,agreement,3,y,\bSALT\b
+Camp David Accords,agreement,3,n,camp david (accord|agreement|summit)|egypt(ian)?[- ]israel(i)? (peace )?treaty
+INF Treaty,agreement,3,y,\bINF\b|Intermediate[- ]Range Nuclear Forces
+START / New START,agreement,3,y,\bSTART\b|New START|Strategic Arms Reduction
+CFE Treaty,agreement,3,n,\bCFE\b|conventional (armed )?forces in europe
+Chemical Weapons Convention,agreement,3,n,chemical weapons convention|\bCWC\b
+Comprehensive Test Ban Treaty,agreement,3,n,test ban|\bCTBT\b
+ABM Treaty,agreement,3,n,\bABM\b|anti-?ballistic missile treaty
+Moscow Treaty (SORT),agreement,3,n,moscow treaty|strategic offensive reductions
+Non-Proliferation Treaty,agreement,3,n,non-?proliferation treaty|\bNPT\b
+Agreed Framework (North Korea),agreement,3,n,agreed framework
+Iran nuclear deal (JCPOA),agreement,3,n,\bJCPOA\b|joint comprehensive plan of action|iran (nuclear )?(deal|agreement|negotiations)
+NAFTA,agreement,3,n,\bNAFTA\b|north american free trade
+U.S.-Canada Free Trade Agreement,agreement,3,n,canada free trade|U\.?S\.?[- ]canada (trade|FTA)
+GATT / Uruguay Round,agreement,3,n,\bGATT\b|uruguay round|general agreement on tariffs
+World Trade Organization,agreement,3,y,\bWTO\b|World Trade Organization
+Trans-Pacific Partnership,agreement,3,n,\bTPP\b|trans-?pacific partnership
+Other free trade agreements,agreement,2,n,free trade agreement|\bFTA\b|trade promotion agreement|\bCAFTA\b|\bKORUS\b
+Montreal Protocol / ozone,agreement,3,n,montreal protocol|vienna convention for the protection|ozone (layer|treaty|protocol|depleting)
+Kyoto Protocol,agreement,3,n,kyoto
+UN climate convention / Paris Agreement,agreement,3,n,\bUNFCCC\b|framework convention on climate|paris (climate )?agreement|climate (change )?(treaty|agreement|negotiations|convention)|\bCOP ?2[01]\b
+Basel Convention,agreement,3,n,basel convention|hazardous wastes? convention
+Law of the Sea,agreement,3,n,law of the sea|\bUNCLOS\b|\bLOS (treaty|convention)\b
+Biodiversity Convention,agreement,3,n,biological diversity|biodiversity (convention|treaty)
+CITES,agreement,3,n,\bCITES\b|endangered species convention|trade in endangered species
+Genocide Convention,agreement,3,n,genocide convention
+Convention Against Torture,agreement,3,n,convention against torture|torture convention
+Human rights covenants (ICCPR/ICESCR),agreement,3,n,international covenant on|\bICCPR\b|civil and political rights
+CEDAW,agreement,3,n,\bCEDAW\b|discrimination against women
+Rights of the Child,agreement,3,n,rights of the child
+International Criminal Court,agreement,3,n,international criminal court|rome statute|\bICC\b|article 98
+Landmines (Ottawa),agreement,3,n,landmine|land mine|ottawa (treaty|convention)
+Hague / child abduction,agreement,3,n,hague convention|child abduction
+Extradition / legal assistance,agreement,2,n,extradition|mutual legal assistance|\bMLAT\b
+Status of Forces Agreements,agreement,2,n,status of forces|\bSOFA\b
+Bilateral investment treaties,agreement,2,n,bilateral investment treat|\bBITs?\b
+Open Skies,agreement,2,n,open skies
+Dayton / Oslo / Wye peace accords,agreement,2,n,dayton (accord|agreement|peace)|oslo accord|wye river|declaration of principles
+Arms Trade Treaty,agreement,3,n,arms trade treaty
+Senate advice and consent,process,2,n,advice and consent|senate ratification|treaty ratification|ratif(y|ied|ication)
+Implementing legislation,process,2,n,implementing legislation|implementation (of|legislation)
+Fast track / trade negotiating authority,process,2,n,fast[- ]track|trade promotion authority|negotiating authority
+Executive agreements,process,3,n,executive agreement|sole executive|congressional-executive
+Reservations / understandings,process,2,n,reservations? (and|to) |\bRUDs?\b|understandings and declarations
+Treaty (generic),generic,2,n,\btreat(y|ies)\b
+International agreement / accord (generic),generic,1,n,international agreement|\baccords?\b|\bconvention on\b|\bprotocol (on|to)\b
+Negotiations (generic),generic,1,n,negotiat
+Treaty Room (a White House room; exclude),exclude,-2,n,treaty room
+Photographs / social media (exclude unless other terms match),exclude,-2,n,photograph|twitter|tweet|instagram|facebook|graphic promoting

@@ -1,0 +1,9 @@
+# Installed by setup_env.sh into a Python 3.12 conda env.
+# vLLM 0.32 brings its own matching torch/transformers/CUDA libraries.
+# (vLLM 0.28 fails to import on Della with a GLIBCXX error, so don't downgrade.)
+vllm==0.32.0
+huggingface_hub[cli]
+pymupdf>=1.26
+pillow>=11
+rapidfuzz>=3.9
+duckdb>=1.1

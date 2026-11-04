@@ -1,0 +1,32 @@
+# --- Per-user / per-machine -------------------------------------------------
+# Each person's scratch path, written by setup_scratch.sh
+.scratch_path
+# Slurm job logs (keep the folder: Slurm needs logs/ to exist)
+logs/*
+!logs/.keep
+
+# --- Large or regenerable data ----------------------------------------------
+# Source documents can be many GB and are re-downloadable; keep only the sample
+data/pdfs/*
+!data/pdfs/cos_142099_36_01-Panama_Treaty_6-7_77.pdf
+# NARA downloads (re-fetch with nara/download.py)
+data/nara/
+# Page images and manifest (rebuild with ocr/prepare.py)
+data/pages/
+data/pages.jsonl
+# OCR output and exports (rebuild with slurm/ocr.slurm + ocr/export.py).
+# Large for a full corpus; archive final results elsewhere (e.g. TigerData, Hugging Face).
+results/
+exports/
+
+# Kept on purpose: gold/ (hand-corrected pages), nara/candidates.csv (your
+# record selections), nara/search_terms.csv, nara/index/ (56 MB catalog subset).
+
+# --- Python / editor clutter ------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.part
+.DS_Store
+.vscode/
+.idea/
